@@ -1,0 +1,14 @@
+.nav {
+
+    &__list {
+        display: flex;
+        column-gap: 44px;
+    }
+
+    &__item {}
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,23 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__content {
+        display: flex;
+        column-gap: 44px;
+    }
+
+    &__button {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+}
