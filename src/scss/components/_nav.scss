@@ -1,13 +1,19 @@
 .nav {
+    min-height: 48px;
 
     &__list {
         display: flex;
         column-gap: 44px;
+        height: 100%;
     }
 
     &__item {}
 
     &__link {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
         color: #fff;
         text-decoration: none;
     }
